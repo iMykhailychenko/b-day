@@ -8,7 +8,7 @@ import { usePage } from '@app/providers/page.provider';
 import css from './PageWrapper.module.css';
 
 const sounds = [
-    { sound: '/sound/2.mp3', time: 22 },
+    { sound: '/b-day/sound/2.mp3', time: 22 },
     { sound: '/b-day/sound/3.mp3', time: 25 },
     { sound: '/b-day/sound/5.mp3', time: 16 },
     { sound: '/b-day/sound/1.mp3', time: 18 },
