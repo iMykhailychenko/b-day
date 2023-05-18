@@ -1,0 +1,30 @@
+.wrp {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 250px;
+  width: 280px;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%) rotate(-10deg);
+  }
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  transform: translateX(100%);
+}
+
+.open .img {
+  transform: translateX(0%) rotate(-10deg);
+  animation: slide 3s ease-in-out;
+}
+
