@@ -1,4 +1,4 @@
-import { FC, useEffect } from 'react';
+import { FC } from 'react';
 
 import { BankCard } from '@app/pages/BankCard';
 import { CaptchaPage } from '@app/pages/CaptchaPage';
@@ -30,17 +30,7 @@ const components = [
 ];
 
 export const App: FC = () => {
-    const { page, nextPage, prevPage } = usePage();
-
-    // TODO
-    useEffect(() => {
-        const handler = (e: KeyboardEvent) => {
-            if (e.key === 'ArrowRight') nextPage();
-            if (e.key === 'ArrowLeft') prevPage();
-        };
-        window.addEventListener('keydown', handler);
-        return () => window.removeEventListener('keydown', handler);
-    }, [nextPage, prevPage]);
+    const { page } = usePage();
 
     return <>{components[page] ?? components[0]}</>;
 };
