@@ -6,11 +6,12 @@
   "homepage": "https://iMykhailychenko.github.io/b-day/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "prettier": "prettier -c .prettierrc -w",
     "eslint": "eslint -c .eslintrc --fix ./src/",
     "tsc": "tsc --pretty --noEmit",
     "format": "npm run prettier && npm run eslint",
+    "lint": "tsc && prettier -c .prettierrc && eslint -c .eslintrc",
     "preview": "vite preview"
   },
   "dependencies": {
