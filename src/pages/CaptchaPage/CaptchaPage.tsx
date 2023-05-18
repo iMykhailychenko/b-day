@@ -99,7 +99,7 @@ export const CaptchaPage: FC = () => {
                     </Text>
                 </Checkbox>
 
-                <Image src="/captcha.png" alt="" h="66px" w="66px" />
+                <Image src="/b-day/captcha.png" alt="" h="66px" w="66px" />
             </Flex>
 
             <Modal isOpen={isChecked} onClose={() => setIsChecked(false)}>

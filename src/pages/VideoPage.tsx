@@ -21,7 +21,7 @@ export const VideoPage: FC = () => {
         <Stack>
             <video ref={ref} autoPlay>
                 <track kind="captions" />
-                <source src="/video-1.MP4" type="video/mp4" />
+                <source src="/b-day/video-1.MP4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
         </Stack>

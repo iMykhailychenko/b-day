@@ -9,17 +9,17 @@ import css from './PageWrapper.module.css';
 
 const sounds = [
     { sound: '/sound/2.mp3', time: 22 },
-    { sound: '/sound/3.mp3', time: 25 },
-    { sound: '/sound/5.mp3', time: 16 },
-    { sound: '/sound/1.mp3', time: 18 },
-    { sound: '/sound/6.mp3', time: 27 },
-    { sound: '/sound/4.mp3', time: 38 },
-    { sound: '/sound/7.mp3', time: 23 },
-    { sound: '/sound/8.mp3', time: 25 },
-    { sound: '/sound/9.mp3', time: 15 },
-    { sound: '/sound/10.mp3', time: 20 },
-    { sound: '/sound/11.mp3', time: 20 },
-    { sound: '/sound/12.mp3', time: 28 },
+    { sound: '/b-day/sound/3.mp3', time: 25 },
+    { sound: '/b-day/sound/5.mp3', time: 16 },
+    { sound: '/b-day/sound/1.mp3', time: 18 },
+    { sound: '/b-day/sound/6.mp3', time: 27 },
+    { sound: '/b-day/sound/4.mp3', time: 38 },
+    { sound: '/b-day/sound/7.mp3', time: 23 },
+    { sound: '/b-day/sound/8.mp3', time: 25 },
+    { sound: '/b-day/sound/9.mp3', time: 15 },
+    { sound: '/b-day/sound/10.mp3', time: 20 },
+    { sound: '/b-day/sound/11.mp3', time: 20 },
+    { sound: '/b-day/sound/12.mp3', time: 28 },
 ];
 
 export const PageWrapper: FC<Record<'children', ReactNode>> = ({ children }) => {
@@ -67,7 +67,7 @@ export const PageWrapper: FC<Record<'children', ReactNode>> = ({ children }) => 
                                 w="80px"
                                 borderRadius="50%"
                                 objectFit="cover"
-                                src="/loader.jpg"
+                                src="/b-day/loader.jpg"
                                 alt=""
                             />
                             <Text>Loading ...</Text>

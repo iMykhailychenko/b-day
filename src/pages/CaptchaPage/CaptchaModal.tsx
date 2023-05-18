@@ -112,7 +112,7 @@ export const CaptchaModal: FC<Props> = ({ title, images, answers, onSuccess, gri
             )}
 
             <Flex p={2} borderTop="1px solid #dfdfdf" justifyContent="space-between" alignItems="center">
-                <Image w="128px" src="/captcha-footer.png" alt="" />
+                <Image w="128px" src="/b-day/captcha-footer.png" alt="" />
                 <Button
                     colorScheme="blue"
                     color="#fff"

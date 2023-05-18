@@ -49,7 +49,7 @@ export const ScrollPage: FC = () => {
             <SectionsSet items={text1} />
 
             <Section>
-                <Image src="/mda.webp" h="180px" alt="" />
+                <Image src="/b-day/mda.webp" h="180px" alt="" />
             </Section>
 
             <SectionsSet items={text2} />

@@ -14,7 +14,7 @@ export const EasterEgg: FC = () => {
 
     return (
         <div className={open ? css.wrp + ' ' + css.open : css.wrp}>
-            <Image className={css.img} src="/harold.png" alt="" />
+            <Image className={css.img} src="/b-day/harold.png" alt="" />
         </div>
     );
 };

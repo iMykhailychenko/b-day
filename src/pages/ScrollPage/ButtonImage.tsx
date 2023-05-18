@@ -48,7 +48,7 @@ export const ButtonImage: FC = () => {
             )}
 
             <Section>
-                <Image h="100px" src={isDark ? '/button-2.png' : '/button-1.png'} alt="" onClick={onOpen} />
+                <Image h="100px" src={isDark ? '/b-day/button-2.png' : '/b-day/button-1.png'} alt="" onClick={onOpen} />
             </Section>
         </>
     );

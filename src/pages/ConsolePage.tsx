@@ -13,7 +13,7 @@ export const ConsolePage: FC = () => {
     const [value, setValue] = useState('');
 
     useEffect(() => {
-        consoleimg.load('/img.jpg');
+        consoleimg.load('/b-day/img.jpg');
 
         setTimeout(() => {
             console.log(password);

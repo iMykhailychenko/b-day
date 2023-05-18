@@ -21,11 +21,11 @@ import { EasterEgg } from '@app/components/EasterEgg';
 const boxes = range(6);
 
 function* imagesFn() {
-    yield '/gift-2.jpg';
-    yield '/gift-3.webp';
-    yield '/gift-4.png';
-    yield '/gift-5.jpg';
-    yield '/gift-6.jpg';
+    yield '/b-day/gift-2.jpg';
+    yield '/b-day/gift-3.webp';
+    yield '/b-day/gift-4.png';
+    yield '/b-day/gift-5.jpg';
+    yield '/b-day/gift-6.jpg';
 }
 
 export const FinishPage: FC = () => {
@@ -41,7 +41,7 @@ export const FinishPage: FC = () => {
         <>
             <audio ref={ref} controls hidden>
                 <track kind="captions" />
-                <source src="/sound/damage.mp3" type="audio/mpeg" />
+                <source src="/b-day/sound/damage.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
             </audio>
 
