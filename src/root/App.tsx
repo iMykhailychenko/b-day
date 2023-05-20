@@ -13,6 +13,7 @@ import { ReverseName } from '@app/pages/ReverseName';
 import { ScrollPage } from '@app/pages/ScrollPage';
 import { VideoPage } from '@app/pages/VideoPage';
 import { usePage } from '@app/providers/page.provider';
+import {Heading, useMediaQuery} from "@chakra-ui/react";
 
 const components = [
     <HomePage key={0} />,
@@ -31,6 +32,11 @@ const components = [
 
 export const App: FC = () => {
     const { page } = usePage();
+    const [isSmall] = useMediaQuery('(max-width: 600px)')
+
+    if (isSmall) {
+        return <Heading size='4xl' textAlign='center'>Відкрий сайт з ноутбуку</Heading>
+    }
 
     return <>{components[page] ?? components[0]}</>;
 };
